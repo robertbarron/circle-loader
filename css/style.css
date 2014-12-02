@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #0e947c;
+  padding: 0;
+  margin: 0; }
+body #appcircle {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  margin-top: 100px; }
+
+.container {
+  -webkit-animation: anim_circle 1.2s infinite linear;
+  -moz-animation: anim_circle 1.2s infinite linear;
+  -ms-animation: anim_circle 1.2s infinite linear;
+  animation: anim_circle 1.2s infinite linear;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto; }
+
+.circle-center {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.circle-0 {
+  position: absolute;
+  border: 1px dotted #ccc;
+  margin: 24px; }
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; }
+
+.circle1, .circle2, .circle3, .circle4 {
+  position: absolute;
+  border: 1px solid #ffffff; }
+
+.circle1 {
+  top: 0;
+  left: 7px; }
+
+.circle2 {
+  top: 0;
+  left: -7px; }
+
+.circle3 {
+  top: 7px;
+  left: 0; }
+
+.circle4 {
+  top: -7px;
+  left: 0; }
+
+@-webkit-keyframes anim_circle {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes anim_circle {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(360deg); } }
+@-ms-keyframes anim_circle {
+  0% {
+    -ms-transform: rotate(0deg); }
+  100% {
+    -ms-transform: rotate(360deg); } }
+@-o-keyframes anim_circle {
+  0% {
+    -o-transform: rotate(0deg); }
+  100% {
+    -o-transform: rotate(360deg); } }
+@keyframes anim_circle {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/* EXAMPLE SHOWN*/
+.timer-container {
+  color: #fff;
+  font-size: 3em;
+  margin-top: 150px;
+  transition: all 500ms ease; }
+.timer-container #timer {
+  font-weight: 100;
+  text-align: center;
+  transition: all 500ms ease; }
+.timer-container #timer span {
+  font-weight: 900; }
+.timer-container #content-loaded {
+  transition: all 500ms ease;
+  padding: 150 0;
+  margin: 0 auto;
+  background: #ffffff;
+  color: #0e947c;
+  text-align: center; }
